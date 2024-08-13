@@ -1,0 +1,103 @@
+/* Contenedor principal */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  background: url('../../../assets/fondo.jpg') no-repeat center center;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo del formulario de registro */
+.register-form {
+  background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  appearance: none;
+  background: #fff;
+  padding-right: 2rem; /* Make room for the dropdown arrow */
+}
+
+.custom-select::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0.75rem;
+  width: 0;
+  height: 0;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-top: 0.5rem solid #333;
+  transform: translateY(-50%);
+}
+
+.register-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #000000;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}

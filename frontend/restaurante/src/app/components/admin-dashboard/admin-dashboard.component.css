@@ -1,0 +1,84 @@
+/* src/app/components/admin-dashboard/admin-dashboard.component.css */
+
+/* Estilo general del contenedor del formulario */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background: url('../../../assets/fondo.jpg') no-repeat center center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  .restaurant-form {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  h2 {
+    margin: 1.5rem;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical; /* Permitir redimensionar verticalmente */
+    min-height: 100px; /* Tamaño mínimo del textarea */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centrar el botón horizontalmente */
+    margin-top: 1rem; /* Espaciado superior */
+  }
+  
+  .submit-button {
+    padding: 0.75rem 1.5rem; /* Padding superior e inferior, e izquierdo y derecho */
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Efecto de ampliación al pasar el ratón */
+  }
+  
+  .submit-button:active {
+    transform: scale(0.98); /* Efecto de contracción al hacer clic */
+  }
+  

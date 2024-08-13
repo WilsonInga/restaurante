@@ -1,0 +1,24 @@
+
+
+.footer {
+    background-color: rgba(141, 136, 137, 0.37);  /* Fondo transparente en el footer */
+    color: rgba(26, 25, 25, 0.521);
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.footer-icons a img {
+    width: 30px;
+    height: 30px;
+}
